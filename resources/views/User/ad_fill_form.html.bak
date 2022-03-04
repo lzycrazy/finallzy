@@ -1,0 +1,78 @@
+<!---Phones fild form-->
+<form>
+<div class="col-md-12">
+		<label class="form-label" for="exampleInputName">Brand</label>
+		<select class="form-control" id="brand" name="brand">
+		<option value="72">IPhone</option>
+		<option value="73">Samsung</option>
+		<option value="74">Mi</option>
+		<option value="76">Oppo</option>
+		<option value="77">Vivo</option>
+		<option value="79">Realme</option>
+		<option value="80">One Plus</option>
+		<option value="81">Google Pixel</option>
+		<option value="82">Nokia</option>
+		<option value="83">Asus</option>
+		<option value="84">Micromax</option>
+		<option value="85">Huawei</option>
+		<option value="86">Sony</option>
+		<option value="87">HTC</option>
+		<option value="88">BlackBerry</option>
+		<option value="89">Lenovo</option>
+		<option value="90">Karbonn</option>
+		<option value="91">Lava</option>
+		<option value="92">Motorola</option>
+		<option value="93">Gionee</option>
+		<option value="95">Huawei</option>
+		<option value="96">Intex</option>
+		<option value="97">Infinix</option>
+		<option value="98">Techno</option>
+		<option value="100">LG</option>
+		<option value="101">Other Mobiles</option>
+		</select>
+	</div>
+<div class="col-md-12">
+		<label class="form-label" for="exampleInputName">Title*</label>
+		<input type="text" class="form-control" id="title" name="name" required="">
+	</div>
+	<div class="col-md-12">
+		<label for="text">Description:</label>
+		<textarea class="form-control" name="description" id="description"></textarea>
+	</div>
+	<div class="col-md-4 col-sm-12 price-inputBox">
+		<label for="exampleInputName">Set Price*</label>
+		<input type="text" class="form-control set_price" id="set_price" name="price" required="" onkeyup="setCurrencyFormat()">
+		<i class="far fa-check-circle clearable__clear"></i>
+		<i class="fas fa-rupee-sign"></i>
+	</div>
+	<div class="col-md-8 col-sm-12">
+		<label for="exampleInputName">Location</label>
+		<input type="text" class="form-control pac-target-input" id="location" name="location" placeholder="Enter a location" autocomplete="off">
+	</div>
+	<div class="col-md-12">
+		<label for="text">Product Pics:</label>
+		<input type="file" class="form-control" multiple="" name="product_pics[]" id="product_pics" accept=".xlsx,.xls,image/*,.doc,audio/*,.docx,video/*,.ppt,.pptx,.txt,.pdf" style="display: none;">
+	</div>	
+
+<div class="clearfix"></div> 
+	<div class="col-md-12 user_details">
+		<h2>Review your details:</h2>
+		<div class="col-md-6 col-sm-12">
+			<label for="exampleInputName">Your Name</label>
+			<input type="text" class="form-control" id="publisher_name" name="publisher_name" required="">
+		</div>
+		<div class="col-md-6 col-sm-12">
+			<label for="exampleInputName">Your Contact Number</label>
+			<input type="text" class="form-control" id="contact_number" name="contact_number" required="">
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<div class="submit_frm">
+		<button type="submit" class="btn btn-primary" onclick="createNewPro(event)">Submit</button>
+</div>
+</form>
+
+
+
+
+<!---Furniture fild form-->

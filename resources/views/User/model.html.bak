@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lzycrazy </title>
+
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/feather.css">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+	<!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/emoji.css">
+    <link rel="stylesheet" type="text/css" href="web-fonts-with-css/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+	
+	
+	
+
+</head>
+
+<body class="color-theme-blue mont-font">
+
+    <div class="preloader"></div>
+
+
+    <div class="main-wrapper">
+
+<div class="container p-4">
+    <h1>Multiple Modals on a Page - Bootstrap 4</h1>
+    <a href="https://getbootstrap.com/docs/4.3/components/modal/#varying-modal-content">Documentation</a>
+	</div>
+  <hr>
+<!-- Modal 1 Content   -->
+<ul>
+<li><a href="" data-toggle="modal" 
+data-target="#templateModal" 
+data-name="name"
+data-title="title 1"
+data-customer="Chrysler"
+data-logo="https://dummyimage.com/400x200/000/fff.png&text=modal+1"
+data-industry="industry"
+data-products="products"
+data-sales cycle="sales cycle"
+data-competition="competition"
+data-background="background"
+data-salesperson="Tony Tiger"
+data-jobtitle="jobtitle"
+data-headshot="headshot"
+data-email="email"
+data-metrics="metrics"
+data-economicBuyer="economicBuyer"
+data-decisionCriteria="decisionCriteria" 
+data-decisionProcess="decisionProcess"
+data-identifyPain="identifyPain"
+data-champion="champion">Home</a>
+
+
+
+
+
+</li>
+<li><a href=""data-toggle="modal" 
+data-target="#templateModal" 
+data-name="name"
+data-title="title 1"
+data-customer="Chrysler"
+data-logo="https://dummyimage.com/400x200/000/fff.png&text=modal+2"
+data-industry="industry"
+data-products="products"
+data-sales cycle="sales cycle"
+data-competition="competition"
+data-background="background"
+data-salesperson="Tony Tiger"
+data-jobtitle="jobtitle"
+data-headshot="headshot"
+data-email="email"
+data-metrics="metrics"
+data-economicBuyer="economicBuyer"
+data-decisionCriteria="decisionCriteria" 
+data-decisionProcess="decisionProcess"
+data-identifyPain="identifyPain"
+data-champion="champion">Home1</a></li>
+<li><a href=""data-toggle="modal" 
+data-target="#templateModal" 
+data-name="name"
+data-title="title 1"
+data-customer="Chrysler"
+data-logo="https://dummyimage.com/400x200/000/fff.png&text=modal+3"
+data-industry="industry"
+data-products="products"
+data-sales cycle="sales cycle"
+data-competition="competition"
+data-background="background"
+data-salesperson="Tony Tiger"
+data-jobtitle="jobtitle"
+data-headshot="headshot"
+data-email="email"
+data-metrics="metrics"
+data-economicBuyer="economicBuyer"
+data-decisionCriteria="decisionCriteria" 
+data-decisionProcess="decisionProcess"
+data-identifyPain="identifyPain"
+data-champion="champion">Home2</a></li>
+<li><a href=""data-toggle="modal" 
+data-target="#templateModal" 
+data-name="name"
+data-title="title 1"
+data-customer="Chrysler"
+data-logo="https://dummyimage.com/400x200/000/fff.png&text=modal+4"
+data-industry="industry"
+data-products="products"
+data-sales cycle="sales cycle"
+data-competition="competition"
+data-background="background"
+data-salesperson="Tony Tiger"
+data-jobtitle="jobtitle"
+data-headshot="headshot"
+data-email="email"
+data-metrics="metrics"
+data-economicBuyer="economicBuyer"
+data-decisionCriteria="decisionCriteria" 
+data-decisionProcess="decisionProcess"
+data-identifyPain="identifyPain"
+data-champion="champion">Home3</a></li>
+<li><a href=""data-toggle="modal" 
+data-target="#templateModal" 
+data-name="name"
+data-title="title 1"
+data-customer="Chrysler"
+data-logo="https://dummyimage.com/400x200/000/fff.png&text=modal+5"
+data-industry="industry"
+data-products="products"
+data-sales cycle="sales cycle"
+data-competition="competition"
+data-background="background"
+data-salesperson="Tony Tiger"
+data-jobtitle="jobtitle"
+data-headshot="headshot"
+data-email="email"
+data-metrics="metrics"
+data-economicBuyer="economicBuyer"
+data-decisionCriteria="decisionCriteria" 
+data-decisionProcess="decisionProcess"
+data-identifyPain="identifyPain"
+data-champion="champion">Home3</a></li>
+</ul>
+<!--
+<button 
+type="button" 
+class="btn btn-secondary" 
+data-toggle="modal" 
+data-target="#templateModal" 
+data-name="name"
+data-title="title 1"
+data-customer="Chrysler"
+data-logo="https://dummyimage.com/400x200/000/fff.png&text=modal+1"
+data-industry="industry"
+data-products="products"
+data-sales cycle="sales cycle"
+data-competition="competition"
+data-background="background"
+data-salesperson="Tony Tiger"
+data-jobtitle="jobtitle"
+data-headshot="headshot"
+data-email="email"
+data-metrics="metrics"
+data-economicBuyer="economicBuyer"
+data-decisionCriteria="decisionCriteria" 
+data-decisionProcess="decisionProcess"
+data-identifyPain="identifyPain"
+data-champion="champion"
+>
+Modal 1
+</button>  -->
+  
+  
+<!-- Modal 2 Content   -->
+<!--
+<button 
+type="button" 
+class="btn btn-secondary" 
+data-toggle="modal" 
+data-target="#templateModal" 
+data-name="name"
+data-title="title 2"
+data-customer="Chrysler"
+data-logo="https://dummyimage.com/400x200/000/fff.png&text=modal+2"
+data-industry="industry"
+data-products="products"
+data-sales cycle="sales cycle"
+data-competition="competition"
+data-background="background"
+data-salesperson="Tony Tiger"
+data-jobtitle="jobtitle"
+data-headshot="headshot"
+data-email="email"
+data-metrics="metrics"
+data-economicBuyer="economicBuyer"
+data-decisionCriteria="decisionCriteria" 
+data-decisionProcess="decisionProcess"
+data-identifyPain="identifyPain"
+data-champion="champion"
+>
+Modal 2
+</button>
+  
+  
+  <!-- Modal 3 Content   -->
+  <!--
+<button 
+type="button" 
+class="btn btn-secondary" 
+data-toggle="modal" 
+data-target="#templateModal" 
+data-name="name"
+data-title="title 3"
+data-customer="Chrysler"
+data-logo="https://dummyimage.com/400x200/000/fff.png&text=modal+3"
+data-industry="industry"
+data-products="products"
+data-sales cycle="sales cycle"
+data-competition="competition"
+data-background="background"
+data-salesperson="Tony Tiger"
+data-jobtitle="jobtitle"
+data-headshot="headshot"
+data-email="email"
+data-metrics="metrics"
+data-economicBuyer="economicBuyer"
+data-decisionCriteria="decisionCriteria" 
+data-decisionProcess="decisionProcess"
+data-identifyPain="identifyPain"
+data-champion="champion"
+>
+Modal 3
+</button>
+  </div> -->
+
+  
+  
+  
+  
+  
+        <div class="app-footer border-0 shadow-lg bg-primary-gradiant">
+            <a href="default.html" class="nav-content-bttn nav-center"><i class="feather-home"></i></a>
+            <a href="default-video.html" class="nav-content-bttn"><i class="feather-package"></i></a>
+            <a href="default-live-stream.html" class="nav-content-bttn" data-tab="chats"><i
+                    class="feather-layout"></i></a>
+            <a href="shop-2.html" class="nav-content-bttn"><i class="feather-layers"></i></a>
+            <a href="default-settings.html" class="nav-content-bttn"><img src="https://via.placeholder.com/50x50.png"
+                    alt="user" class="w30 shadow-xss"></a>
+        </div>
+  
+  
+  
+  
+<!--  Modal template  -->
+          <div class="modal fade modal-wide" id="templateModal" tabindex="-1" role="dialog" aria-labelledby="templateModal">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+        
+              <div class="modal-body">
+                  <span type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
+        
+                <img alt="logo" class="modal-logo"> 
+                <h2 class="modal-title"></h2>
+                <p class="modal-name"></p>
+                <p class="modal-customer"></p>
+                <p class="modal-logo"></p>
+                <p class="modal-industry"></p>
+                <p class="modal-products"></p>
+                <p class="modal-sales cycle"></p>
+                <p class="modal-competition"></p>
+                <p class="modal-background"></p>
+                <p class="modal-salesperson"></p>
+                <p class="modal-jobtitle"></p>
+                <p class="modal-headshot"></p>
+                <p class="modal-email"></p>
+                <p class="modal-support"></p>
+                <p class="modal-metrics"></p>
+                <p class="modal-economicBuyer"></p>
+                <p class="modal-decisionCriteria"></p> 
+                <p class="modal-decisionProcess"></p>
+                <p class="modal-identifyPain"></p>
+                <p class="modal-champion"></p>
+        
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.modal -->
+  
+  
+  
+   
+<!--  Modal template  -->
+          <div class="modal fade modal-wide" id="templateModal" tabindex="-2" role="dialog" aria-labelledby="templateModal">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+        
+              <div class="modal-body">
+                  <span type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
+        
+                <img alt="logo" class="modal-logo"> 
+                <h2 class="modal-title">hello</h2>
+                <p class="modal-name"></p>
+                <p class="modal-customer"></p>
+                <p class="modal-logo"></p>
+                <p class="modal-industry"></p>
+                <p class="modal-products"></p>
+                <p class="modal-sales cycle"></p>
+                <p class="modal-competition"></p>
+                <p class="modal-background"></p>
+                <p class="modal-salesperson"></p>
+                <p class="modal-jobtitle"></p>
+                <p class="modal-headshot"></p>
+                <p class="modal-email"></p>
+                <p class="modal-support"></p>
+                <p class="modal-metrics"></p>
+                <p class="modal-economicBuyer"></p>
+                <p class="modal-decisionCriteria"></p> 
+                <p class="modal-decisionProcess"></p>
+                <p class="modal-identifyPain"></p>
+                <p class="modal-champion"></p>
+        
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.modal -->
+  
+  
+</div>
+<!-- /.container -->
+
+
+
+
+    <script src="js/plugin.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/float-sidebar.js"></script>
+	   <!--<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>-->
+
+      <script src="js/bootstrap.min.js"></script>
+
+<script>
+$(document).ready(function() {
+  // executes when HTML-Document is loaded and DOM is ready
+
+  $("button").each(function(index) {
+    var logo = $(this).data("logo");
+    $(this)
+      .find(".button-logo")
+      .attr("src", $(this).data("logo"));
+  });
+
+  $("#templateModal").on("show.bs.modal", function(event) {
+    var button = $(event.relatedTarget);
+    var modal = $(this);
+    modal.find(".modal-title").text(button.data("title"));
+    modal.find(".modal-title").text(button.data("title"));
+    modal.find(".modal-customer").text(button.data("customer"));
+
+    modal.find(".modal-logo").attr("src", button.data("logo"));
+    modal.find(".modal-industry").text(button.data("industry"));
+    modal.find(".modal-products").text(button.data("products"));
+    modal.find(".modal-salesCycle").text(button.data("salesCycle"));
+    modal.find(".modal-competition").text(button.data("competition"));
+    modal.find(".modal-background").text(button.data("background"));
+    modal.find(".modal-salesperson").text(button.data("salesperson"));
+    modal.find(".modal-jobTitle").text(button.data("jobtitle"));
+    modal.find(".modal-headshot").text(button.data("headshot"));
+    modal.find(".modal-email").text(button.data("email"));
+    modal.find(".modal-support").text(button.data("support"));
+    modal.find(".modal-metrics").text(button.data("metrics"));
+    modal.find(".modal-economicBuyer").text(button.data("economicBuyer"));
+    modal.find(".modal-decisionCriteria").text(button.data("decisionCriteria"));
+    modal.find(".modal-decisionProcess").text(button.data("decisionProcess"));
+    modal.find(".modal-identifyPain").text(button.data("identifyPain"));
+    modal.find(".modal-champion").text(button.data("champion"));
+  });
+
+
+  
+
+  
+
+  // document ready
+});
+</script>
+
+</body>
+
+</html>

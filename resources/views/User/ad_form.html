@@ -1,0 +1,424 @@
+<ul class="" id="">
+<a href="">Phones</a>
+<li onclick=""><a href="">Mobile Phones</a></li>
+<li onclick=""><a href="">Accessories</a></li>
+<li onclick=""><a href="">Tablets</a></li>
+</ul>
+				
+				
+<ul class="" id="">
+<a href="">Furniture</a>
+<li onclick=""><a href="">Sofa &amp; Dining</a></li>
+<li onclick=""><a href="">Beds &amp; Wardrobes</a></li>
+<li onclick=""><a href="">Kids Furniture</a></li>
+<li onclick=""><a href="">Home Decor &amp; Garden</a></li>
+<li onclick=""><a href="">Office Furniture</a></li>
+<li onclick=""><a href="">Other Household Items</a></li>
+</ul>				
+
+
+<ul class="" id="">
+<a href="">Vehicle</a>
+<li onclick=""><a href="">Cars</a></li>
+<li onclick=""><a href="">BIKE </a></li>
+<li onclick=""><a href="">Scooters</a></li>
+<li onclick=""><a href="">Bicycles</a></li>
+</ul>
+
+
+<ul class="" id="">
+<a href="">Direct by farm</a>
+<li onclick=""><a href="">Cow milk</a></li>
+<li onclick=""><a href="">Buffalo milk</a></li>
+<li onclick=""><a href="">Goat milk</a></li>
+<li onclick=""><a href="">Desi Egg</a></li>
+<li onclick=""><a href="">Fruit</a></li>
+<li onclick=""><a href="">Vegetable</a></li>
+</ul>
+
+<ul class="" id="">
+<a href="">Books, Hobbies &amp; Sports</a>
+<li onclick=""><a href="">Books</a></li>
+<li onclick=""><a href="">Gym &amp; Fitness</a></li>
+<li onclick=""><a href="">Musical Instruments</a></li>
+<li onclick=""><a href="">Sports Equipment</a></li>
+<li onclick=""><a href="">Sports Equipment</a></li>
+<li onclick=""><a href="">Other Hobbies</a></li>
+</ul>
+
+
+<ul class="" id="">
+<a href="">Electronics &amp; Appliances</a>
+<li onclick=""><a href="">TVs Video Audio</a></li>
+<li onclick=""><a href="">Kitchen and Other Appliances</a></li>
+<li onclick=""><a href="">Computers and Laptops</a></li>
+<li onclick=""><a href="">Cameras &amp; Lenses</a></li>
+<li onclick=""><a href="">Games &amp; Entertainment</a></li>
+<li onclick=""><a href="">Fridges</a></li>
+<li onclick=""><a href="">Computer Accessories</a></li>
+<li onclick=""><a href="">Hard Disks, Printers &amp; Monitors</a></li>
+<li onclick=""><a href="">Washing Machines</a></li>
+<li onclick=""><a href="">Other Electronics</a></li></ul>
+
+
+
+<ul class="" id="">
+<a href="">Toys</a>
+<li onclick=""><a href="">Under 3 yrs age</a></li>
+<li onclick=""><a href="">Under 3 yrs - 5 yrs age</a></li>
+<li onclick=""><a href="">Under 5 yrs - 8 yrs age</a></li>
+<li onclick=""><a href="">Under 8 yrs - 10 yrs age</a></li>
+<li onclick=""><a href="">Above 10 yrs age</a></li>
+</ul>
+
+
+<ul class="" id="">
+<a href="">Self Made</a>
+<li onclick=""><a href="">Self made products</a></li>
+
+
+<ul class="" id="">
+<a href="">Property</a>
+<li onclick=""><a href="">BUY</a></li>
+<li onclick=""><a href="">RENT</a></li>
+<li onclick=""><a href="">COMMERCIAL</a></li>
+
+
+
+<ul class="" id="">
+<a href="">Services</a>
+<li onclick=""><a href="">Electronics &amp; Computer</a></li>
+<li onclick=""><a href="">Drivers &amp; Taxi</a></li>
+<li onclick=""><a href="">Health &amp; Beauty</a></li>
+<li onclick=""><a href="">Other Services</a></li>
+</ul>
+
+
+
+<ul class="" id="">
+<a href="">Interior Design</a>
+<li onclick=""><a href="">Interior Designs</a></li>
+
+
+
+
+<ul class="" id="">
+<a href="">Fashion Accessories</a>
+<li onclick=""><a href="">Men’s Fashion</a></li>
+<li onclick=""><a href="">Women's Fashion</a></li>
+<li onclick=""><a href="">Kids Fashion</a></li>
+</ul>
+
+
+
+
+<!----form layout---->
+Sofa & Dining
+
+										<form>
+										<div class="row">
+											<div class="col-12">
+												<label class="formlabel" for="exampleInputName">Title*</label>
+												<input type="text" class="form-control" id="title" name="name" required="">
+											</div>
+											</div>
+											<div class="col-12">
+												<label class="formlabel" for="text">Description:</label>
+												<textarea style="height:60px;" class="form-control" name="description" id="description"></textarea>
+											</div>
+											
+											<div class="row">
+											<div class="col-4 price-inputBox">
+												<label class="formlabel" for="exampleInputName">Set Price*</label>
+												<input type="text" class="form-control set_price" id="set_price" name="price" required="" onkeyup="setCurrencyFormat()">
+												<i class="fas fa-rupee-sign"></i>
+											</div>
+											<div class="col-8">
+												<label class="formlabel" for="exampleInputName">Location</label>
+												<input type="text" class="form-control pac-target-input" id="location" name="location" placeholder="Enter a location" autocomplete="off">
+											</div>
+											</div>
+											
+											<div class="col-12">
+											<label class="formlabel" for="text">Product Pics:</label>
+											<div class="imageuploadify well">
+											<input type="file" class="form-control" multiple="" name="product_pics[]" id="product_pics" accept=".xlsx,.xls,image/*,.doc,audio/*,.docx,video/*,.ppt,.pptx,.txt,.pdf" style="display: none;">
+											<div class="imageuploadify-images-list text-center">
+											<i class="fas fa-camera"></i>
+											<button type="button" class="btn btn-default" style="background: white; color: rgb(58, 160, 255);">select file to upload</button>
+											</div>
+											</div>	
+											</div>
+										<div class="clearfix"></div> 
+											<div class="col-12 row user_details">
+												<!--<h2 class="text-center">Review your details:</h2>-->
+												<div class="col-6">
+													<label class="formlabel" for="exampleInputName">Your Name</label>
+													<input type="text" class="form-control" id="publisher_name" name="publisher_name" required="">
+												</div>
+												<div class="col-6">
+													<label class="formlabel" for="exampleInputName">Your Contact Number</label>
+													<input type="text" class="form-control" id="contact_number" name="contact_number" required="">
+												</div>
+											</div>
+											<div class="clearfix"></div>
+											<div class="submit_frm text-center">
+												<button type="submit" class="btn btn-primary" onclick="createNewPro(event)">Submit</button>
+										</div>
+										</form>
+										
+
+
+<!----form layout---->
+Cars	
+
+
+
+
+<form>
+<h2>Cars</h2>
+										<div class="row">
+										
+										<div class="col-12">
+										<label for="exampleInputName">Choose Brand</label>
+											<select class="form-control" id="brand" name="brand">
+											<option value="126">Other Brands</option>
+											<option value="127">Maruti Suzuki</option>
+											<option value="128">Hyundai</option>
+											<option value="129">Tata</option>
+											<option value="130">Mahindra</option>
+											<option value="131">Toyota</option>
+											<option value="132">Honda</option>
+											<option value="133">Mercedes</option>
+											<option value="134">Ashok Leyland</option>
+											<option value="135">Aston Martin</option>
+											<option value="136">Audi</option>
+											<option value="137">Bajaj</option>
+											<option value="138">Bentley</option>
+											<option value="139">BMW</option>
+											<option value="140">Bugatti</option>
+											<option value="141">Cadillac</option>
+											<option value="142">Chevrolet</option>
+											<option value="143">Chrysler</option>
+											<option value="144">Citroen</option>
+											<option value="145">Daewoo</option>
+											<option value="146">Datsun</option>
+											<option value="147">Dodge</option>
+											<option value="148">Ferrari</option>
+											<option value="149">Fiat</option>
+											<option value="150">Force Motors</option>
+											<option value="151">Ford</option>
+											<option value="152">Ford</option>
+											<option value="153">Hummer</option>
+											<option value="154">Jaquar</option>
+											<option value="155">Kia</option>
+											<option value="156">Lamborghini</option>
+											<option value="157">Land Rover</option>
+											<option value="158">Lexus</option>
+											<option value="159">Maserati</option>
+											<option value="160">Maybach</option>
+											<option value="161">Nissan</option>
+											<option value="162">Opel</option>
+											<option value="163">Peugeot</option>
+											<option value="164">Porsche</option>
+											<option value="165">RENAULT</option>
+											<option value="166">Rolls-Royce</option>
+											<option value="167">Skoda</option>
+											<option value="168">Tesla</option>
+											<option value="169">Volkswagen</option>
+											<option value="170">Volvo</option>
+											</select>
+														
+										<div class="col-md-4 col-sm-6 col-xs-12">
+										  <label for="exampleInputName">Year*</label>
+										  <input type="number" class="form-control" id="year" name="year" required="">
+									  </div>
+									  <div class="col-md-4 col-sm-6 col-xs-12">
+										  <label for="exampleInputName">Fuel</label>
+										  <select class="form-control" id="fuel" name="fuel">
+											<option value="Diesel">Diesel</option>
+											<option value="Patrol">Patrol</option>
+											<option value="CNG &amp;  Hybrids">CNG &amp;  Hybrids</option>
+											<option value="Electric">Electric</option>
+											<option value="LPG">LPG</option>
+										  </select>
+									  </div>
+									  </div>
+									  
+									  <div class="col-12">
+									  <div class="col-md-4 col-sm-6 col-xs-12">
+										  <label for="exampleInputName">Transmission</label>
+										   <select class="form-control" id="transmission" name="transmission">
+											<option value="Manual">Manual</option>
+											<option value="Automatic">Automatic</option>
+										  </select>
+									  </div>
+									  <div class="col-md-4 col-sm-6 col-xs-12">
+										  <label for="exampleInputName">KM Driven*</label>
+										  <input type="number" class="form-control" id="km_driven" name="km_driven" required="">
+									  </div>
+									  <div class="col-md-4 col-sm-6 col-xs-12">
+										  <label for="exampleInputName">No. of Owners</label>
+										  <select class="form-control" id="no_of_owners" name="no_of_owners">
+											<option value="1st">1st</option>
+											<option value="2nd">3rd</option>
+											<option value="3rd">3rd</option>
+											<option value="4th">4th</option>
+											<option value="4+">4+</option>
+										  </select>
+									  </div></div>
+										
+										
+											<div class="col-12">
+												<label class="formlabel" for="exampleInputName">Title*</label>
+												<input type="text" class="form-control" id="title" name="name" required="">
+											</div>
+											
+											<div class="col-12">
+												<label class="formlabel" for="text">Description:</label>
+												<textarea style="height:60px;" class="form-control" name="description" id="description"></textarea>
+											</div>
+											
+											<div class="row">
+											<div class="col-4 price-inputBox">
+												<label class="formlabel" for="exampleInputName">Set Price*</label>
+												<input type="text" class="form-control set_price" id="set_price" name="price" required="" onkeyup="setCurrencyFormat()">
+												<i class="fas fa-rupee-sign"></i>
+											</div>
+											<div class="col-8">
+												<label class="formlabel" for="exampleInputName">Location</label>
+												<input type="text" class="form-control pac-target-input" id="location" name="location" placeholder="Enter a location" autocomplete="off">
+											</div>
+											</div>
+											
+											<div class="col-12">
+											<label class="formlabel" for="text">Product Pics:</label>
+											<div class="imageuploadify well">
+											<input type="file" class="form-control" multiple="" name="product_pics[]" id="product_pics" accept=".xlsx,.xls,image/*,.doc,audio/*,.docx,video/*,.ppt,.pptx,.txt,.pdf" style="display: none;">
+											<div class="imageuploadify-images-list text-center">
+											<i class="fas fa-camera"></i>
+											<button type="button" class="btn btn-default" style="background: white; color: rgb(58, 160, 255);">select file to upload</button>
+											</div>
+											</div>	
+											</div>
+										<div class="clearfix"></div> 
+											<div class="col-12 row user_details">
+												<!--<h2 class="text-center">Review your details:</h2>-->
+												<div class="col-6">
+													<label class="formlabel" for="exampleInputName">Your Name</label>
+													<input type="text" class="form-control" id="publisher_name" name="publisher_name" required="">
+												</div>
+												<div class="col-6">
+													<label class="formlabel" for="exampleInputName">Your Contact Number</label>
+													<input type="text" class="form-control" id="contact_number" name="contact_number" required="">
+												</div>
+											</div>
+											<div class="clearfix"></div>
+											<div class="submit_frm text-center">
+												<button type="submit" class="btn btn-primary" onclick="createNewPro(event)">Submit</button>
+										</div>
+										</div>
+										</form>
+
+					
+						
+					
+					
+					
+					
+<!----form layout---->				
+Bike
+
+	
+	<div class="col-md-12"><h2>Bike</h2></div>
+	<div class="col-md-4 col-sm-6 col-sm-12">
+		  <label for="exampleInputName">Choose Brand</label>
+		   <select class="form-control" id="brand" name="brand">
+		   <option value="109">Bajaj Auto</option>
+		   <option value="110">Harley Davidson</option>
+		   <option value="111">Hero</option>
+		   <option value="112">Honda</option>
+		   <option value="113">Kawasaki</option>
+		   <option value="114">KTM</option>
+		   <option value="115">Royal Enfield</option>
+		   <option value="116">Suzuki</option>
+		   <option value="117">TVS Motors</option>
+		   <option value="118">Yamaha</option>
+		   <option value="119">Other Brands</option>
+		   </select>
+	  </div>
+	  <div class="col-md-4 col-sm-6 col-xs-12">
+		  <label for="exampleInputName">Year*</label>
+		  <input type="number" class="form-control" id="year" name="year" required="">
+	  </div>
+	  <div class="col-md-4 col-sm-6 col-xs-12">
+		  <label for="exampleInputName">KM Driven*</label>
+		  <input type="number" class="form-control" id="km_driven" name="km_driven" required="">
+	  </div>
+	  
+	  
+	  <div class="col-md-12">
+		  <label for="exampleInputName">Title*</label>
+		  <input type="text" class="form-control" id="title" name="name" required="">
+	  </div><div class="col-md-12">
+	  <label for="text">Description:</label>
+	  <textarea class="form-control" name="description" id="description"></textarea>
+	</div>						<div class="col-md-4 col-sm-4 col-xs-12 price-inputBox">
+		<label for="exampleInputName">Set Price*</label>
+		<input type="text" class="form-control" id="set_price" name="price" required="" onkeyup="setCurrencyFormat()">
+		<i class="far fa-check-circle clearable__clear"></i>
+		<i class="fas fa-rupee-sign"></i>
+	</div>						<div class="col-md-8 col-sm-6 col-xs-12">                              <label for="exampleInputName">Location</label>                              <input type="text" class="form-control pac-target-input" id="location" name="location" placeholder="Enter a location" autocomplete="off">                          </div>												<div class="col-md-12">
+	  <label for="text">Product Pics:</label>
+	  <input type="file" class="form-control" multiple="" name="product_pics[]" id="product_pics" accept=".xlsx,.xls,image/*,.doc,audio/*,.docx,video/*,.ppt,.pptx,.txt,.pdf" style="display: none;"><div class="imageuploadify well"><div class="imageuploadify-overlay"><i class="fa fa-picture-o"></i></div><div class="imageuploadify-images-list text-center"><i class="fas fa-camera"></i><span class="imageuploadify-message">Drag&amp;Drop Your File(s)Here To Upload</span><button type="button" class="btn btn-default">or select file to upload</button></div></div>
+	</div>
+	<div class="clearfix"></div> 
+	<div class="col-md-12 user_details">
+		<h2>Review your details:</h2>
+		<div class="col-md-6 col-sm-12">
+			<label for="exampleInputName">Your Name</label>
+			<input type="text" class="form-control" id="publisher_name" name="publisher_name" required="">
+		</div>
+		<div class="col-md-6 col-sm-12">
+			<label for="exampleInputName">Your Contact Number</label>
+			<input type="text" class="form-control" id="contact_number" name="contact_number" required="">
+		</div>
+	</div>
+	<div class="clearfix"></div>						<div class="submit_frm">							<button type="submit" class="btn btn-primary" onclick="createNewPro(event)">Submit</button>						</div>
+</div>
+
+
+cycle
+
+<div class="col-md-4 col-sm-6 col-xs-12">
+                              <label for="exampleInputName">Choose Brand*</label>
+                              <select class="form-control" id="brand" name="brand">
+							  <option value="102">Avon</option>
+							  <option value="103">Hercules</option>
+							  <option value="104">Firefox</option>
+							  <option value="105">Hero</option>
+							  <option value="106">La-sovereign</option>
+							  <option value="107">Roadmaster</option>
+							  <option value="108">Atlas</option>
+							  <option value="119">Other Brands</option>
+							  </select>
+                          </div>
+						  
+						  
+						  
+Cow Milk same mobile form
+
+egg from
+<div class="col-md-12">
+                              <label for="exampleInputName">Type</label>
+							  <select class="form-control" id="type" name="egg_type">
+								<option value="White Egg">White Egg</option>
+								<option value="Brown Egg">Brown Egg</option>
+							  </select>
+                          </div>						  
+						  
+						  
+					
+books all fild same mobile form
+
+					
